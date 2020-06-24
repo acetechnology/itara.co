@@ -1,0 +1,455 @@
+@import url(https://fonts.googleapis.com/css2?family=Signika&family=Work+Sans&display=swap);
+$WorkSans: "Work Sans", sans-serif;
+$Signika: "Signika", sans-serif;
+
+$black: #222222;
+$customGray: rgba(0, 0, 0, 0.54);
+$green: #7fad7c;
+$gray: #707070;
+
+* {
+  text-transform: none !important;
+}
+body,
+#app {
+  background-color: white;
+  font-family: $WorkSans !important;
+  font-style: normal;
+}
+h1,
+h3 {
+  font-family: $Signika;
+  color: $black;
+}
+h1 {
+  font-size: 30px;
+}
+p {
+  color: $black;
+  font-size: 16px;
+}
+.logo {
+  max-width: 150px;
+}
+a {
+  text-decoration: none !important;
+}
+.menuLink {
+  color: $customGray !important;
+  font-weight: normal !important;
+}
+.headerImage {
+  height: 70vh;
+  width: 100%;
+  object-fit: cover;
+  object-position: 0% 5%;
+}
+
+.sectionTitle {
+  color: $black;
+  font-size: 1.75em;
+  font-weight: normal;
+}
+.aboutTxt {
+  font-size: 1.4em;
+  color: gray;
+  text-align: left;
+  line-height: 1.35625em;
+  max-width: 800px;
+}
+
+.missionContainer {
+  max-width: 760px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.missionTxt {
+  text-align: center !important;
+  color: gray;
+  line-height: 1.35625em;
+  font-size: 1.4em;
+}
+
+.map {
+  max-width: 21.0375em;
+}
+
+.v-list-item__title {
+  color: gray;
+  font-weight: bold;
+}
+
+.visionMissionContainer {
+  max-width: 960px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.vmsynopsis {
+  font-size: 1.4em;
+  color: $gray;
+  line-height: 1.4;
+  width: 21.48125em;
+}
+
+.visionImage {
+  max-width: 18.725em;
+  -o-object-fit: contain;
+  object-fit: contain;
+  float: right;
+  margin: 16px;
+  margin-right: 60px;
+}
+
+.missionImage {
+  max-width: 18.725em;
+  object-fit: contain;
+  margin: 16px;
+  margin-left: 60px;
+}
+
+.firstProductImage {
+  max-width: 30em;
+}
+
+.fpSynopsisQuote {
+  font-size: 1.6em;
+  line-height: 1.3em;
+  color: $gray;
+  font-weight: 600;
+}
+
+.fpSynopsis {
+  font-size: 1.4em;
+  line-height: 1.3em;
+  color: $gray;
+}
+
+.learnMore {
+  background-color: $green !important;
+  color: white !important;
+  font-weight: 600;
+  height: 35px !important;
+}
+
+.readMore {
+  background-color: $green !important;
+  color: white !important;
+  font-weight: 600;
+}
+
+.readMore {
+  background-color: $green !important;
+  color: white !important;
+  font-weight: 600;
+}
+
+.learnMore a {
+  color: $black !important;
+}
+
+.learnMore .applylink {
+  color: white !important;
+}
+
+.greenTxt {
+  color: $green !important;
+}
+
+.v-application--is-ltr .v-list-item__avatar:first-child {
+  margin-right: 5px !important;
+  margin-top: 10px !important;
+}
+
+.v-list--three-line .v-list-item .v-list-item__subtitle,
+.v-list-item--three-line .v-list-item__subtitle {
+  -webkit-line-clamp: 10;
+}
+
+.coreTitle {
+  color: $green !important;
+  margin-bottom: 5px !important;
+  font-size: 1.5em;
+  font-family: $Signika;
+  font-weight: normal;
+}
+
+.coreSynopsis {
+  max-width: 450px;
+  font-size: 1.4em;
+}
+
+.mSpacing {
+  margin-bottom: 60px;
+}
+
+.footerHeader {
+  color: white;
+  margin-bottom: 5px;
+  font-size: 1.2em !important;
+  font-weight: normal;
+}
+
+.footerSynopsis {
+  color: lightgray;
+  font-size: 1em;
+}
+
+.footerSocialLinks {
+  list-style-type: none;
+  font-weight: normal !important;
+  font-size: 0.9em;
+}
+
+.footerSocialLinks > a {
+  color: lightgray !important;
+  text-decoration: none;
+}
+
+.footerSocialLinks > a {
+  color: lightgray !important;
+  text-decoration: none;
+}
+
+.footerSections {
+  margin: 0 auto !important;
+}
+
+footer {
+  margin-top: 60px !important;
+}
+
+.aboutContainer,
+.coreContainer,
+.firstProductContainer {
+  max-width: 1300px !important;
+  margin: 0 auto !important;
+}
+
+.theme--light.v-btn.v-btn--disabled:not(.v-btn--flat):not(.v-btn--text):not(.v-btn--outlined) {
+  background-color: $green !important;
+}
+
+.careersHeader {
+  height: 400px;
+  background-color: #fdfdfd !important;
+  width: 100%;
+}
+
+.careersHeader h1 {
+  color: $black;
+  font-size: 3.5em;
+  line-height: 1.2em;
+}
+.closeBTN {
+  margin: 0 auto !important;
+  color: $black !important;
+}
+
+.closeIcon {
+  top: 0;
+  position: absolute;
+  right: 0px;
+}
+
+.apply {
+  padding-left: 5px !important;
+}
+
+.currentJob ul {
+  list-style-type: none;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  padding-left: 2px !important;
+}
+
+.headline {
+  color: $black;
+}
+
+.footerRights {
+  color: white;
+  font-size: 0.7em;
+}
+
+.careersContent {
+  max-width: 90%;
+}
+
+.careersContent {
+  max-width: 90%;
+}
+
+@media only screen and (max-width: 1300px) {
+  .aboutContainer {
+    padding: 15px !important;
+  }
+  .sectionTitle {
+    color: $black;
+    font-size: 1.53125em;
+  }
+  .aboutTxt {
+    font-size: 1.09375em;
+    line-height: 1.53125em;
+    width: 28.56875em;
+  }
+
+  .vmsynopsis {
+    font-size: 1.09375em;
+    line-height: 1.53125em;
+  }
+
+  .missionTxt {
+    font-size: 1.09375em;
+    line-height: 1.53125em;
+  }
+
+  .coreTitle {
+    font-size: 1.08375em;
+    line-height: 1.53125em;
+  }
+
+  .coreSynopsis {
+    font-size: 1.07375em;
+    line-height: 1.53125em;
+  }
+
+  .fpSynopsis {
+    font-size: 1.07375em;
+    line-height: 1.53125em;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .careersContent {
+    padding: 15px !important;
+  }
+}
+
+@media (max-width: 960px) {
+  .careersHeader {
+    height: 300px;
+  }
+  .aboutTxt {
+    width: 100%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .footerHeader {
+    font-size: 1em !important;
+  }
+
+  .footerSynopsis {
+    font-size: 0.8em;
+  }
+
+  .footerSocialLinks {
+    font-size: 0.6em;
+  }
+
+  .subscribeBtn {
+    max-height: 25px;
+    font-size: 0.6em !important;
+    margin-top: 0px;
+  }
+
+  .v-input .v-label {
+    font-size: x-small;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .careersHeader h1 {
+    font-size: 2em;
+  }
+  .headerImage {
+    height: 30vh;
+  }
+  .sectionTitle {
+    font-size: 25px;
+  }
+  .aboutTxt {
+    font-size: 16px;
+    padding: 10px;
+    line-height: 22px;
+  }
+  .map {
+    width: 70%;
+  }
+
+  .vmsynopsis {
+    width: 19.48125em;
+    font-size: 16px;
+  }
+
+  .missionTxt {
+    font-size: 1.09375em;
+    line-height: 1.53125em;
+  }
+
+  .visionImage {
+    font-size: 16px;
+  }
+
+  .missionImage {
+    max-width: 13.725em;
+  }
+
+  .coreTitle {
+    font-size: 15px;
+  }
+
+  .coreSynopsis {
+    font-size: 14px;
+  }
+
+  .fpSynopsis {
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  .firstProductImage {
+    max-width: 13.5em;
+    object-fit: contain;
+  }
+
+  .subscribeBtn {
+    min-width: 100% !important;
+  }
+
+  .learnMore {
+    height: 30px !important;
+  }
+}
+
+@media (max-width: 500px) {
+  .careersHeader h1 {
+    font-size: 1.5em;
+  }
+
+  .careersHeader {
+    height: 150px;
+  }
+
+  .visionImage {
+    margin-right: 60px;
+  }
+  .missionImage {
+    margin-left: 60px;
+  }
+  .apply {
+    padding-left: 0px !important;
+  }
+
+  .visionImage {
+    max-width: 10em;
+  }
+
+  .missionImage {
+    max-width: 10em;
+    object-fit: contain;
+    margin: 16px;
+    margin-left: 60px;
+  }
+}

@@ -1,0 +1,29 @@
+stages:
+    - build
+    - deploy-dev
+
+build:
+    image: node:12
+    stage: build
+    script:
+        - npm install --progress=false
+        - npm run build
+    artifacts:
+        expire_in: 1 week
+        paths:
+            - dist
+
+deploy-dev:
+    image: docker:stable
+    services:
+        - docker:dind
+    stage: deploy-dev
+    only:
+        - master
+    script:
+        - docker build -t $DEV_DOCKER_REGISTRY/$DEV_PROJECT_PATH:latest .
+        - echo "$DEV_DOCKER_PASSWORD" | docker login $DEV_DOCKER_REGISTRY --username $DEV_DOCKER_USER --password-stdin
+        - docker push $DEV_DOCKER_REGISTRY/$DEV_PROJECT_PATH:latest
+    environment:
+        name: app-service
+        url: https://itarang-dev.azurewebsites.net
