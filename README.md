@@ -8,6 +8,8 @@ npm install
 
 ```
 npm run serve
+or
+npm run dev
 ```
 
 ### Compiles and minifies for production
